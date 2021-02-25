@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@600&display=swap');
+
+:root {
+    --primary-color: #3CD4D7;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+	font-family: "Ma Super Fonte";
+	font-weight: bold;
+	src: url('web\ yan/Montserrat-Bold.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    text-decoration: none;
+    font-family: "Ma Super Fonte", Helvetica, Arial, sans-serif;
+
+}
+
+nav {
+    height: 10vh;
+    background: #fff;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    color: black;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.logo img{
+    width: 40px;
+}
+
+.nav-links {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  a:visited {
+    color: black;
+  }
+
+.nav-items {
+    list-style: none;
+    padding: 0 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.landing {
+    display: flex;
+}
+
+.content{
+    width: 25%;
+    height: 100vh;
+    background: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content h1, .content h5{
+    padding: 0;
+    margin: 5px;
+}
+
+.content h5 {
+    opacity: 0.8;
+}
+
+
+.profileimage {
+    width: 75%;
+    height: 100vh;
+}
+
+.profileimage img {
+    width: 90%;
+    filter: contrast(1.2);
+}
+
+.portfolio {
+    height: 100vh;
+    margin-top: 15px;
+}
+
+.portfolio-content h1, .portfolio-content h5 {
+    padding: 0;
+    margin: 5px;
+}
+
+.portfolio-content h5 {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 1% 1% 0% 1%;
+}
+
+.container:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+.portfolio-content {
+    padding: 20px;
+}
+
+.container .box {
+    width: 20%;
+    padding-bottom: 18%;
+}
+
+.box {
+    width: 96%;
+    margin: 5% 3%;
+    padding-bottom: 96%;
+    height: 0;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.box:after {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    opacity: 0;
+    z-index: 55;
+    width: 100%;
+    height: 100%;
+    transition: all 0.15s ease-out;
+}
+
+.box:hover::after {
+    background-color: #000;
+    opacity: 0.2;
+}
+
+.container .box .caption {
+    position: absolute;
+    z-index: 60;
+    width: 96%;
+    margin-left: 5%;
+    transform: scale(3);
+    transition: all 0.15s ease-out;
+    color: #fff;
+    opacity: 0;
+    bottom: 10%;
+    text-align: start;
+}
+
+.box:hover .caption {
+    transform: scale(1) translate(0%, -50%);
+    opacity: 1;
+}
+
+.box img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 50;
+    transition: all 0.15s ease-out;
+}
+
+.box:hover img {
+    height: 150%;
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    justify-content: center;
+}
+
+.box-content h3,
+.box-content h5 {
+    padding: 0;
+    margin: 10px;
+}
+
+.box-content h5 {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.box-content h5 {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.aboutme {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 1% 0% 1%;
+    margin-bottom: 40px;    
+}
+
+.aboutmeimg {
+    padding: 60px 40px;
+    width: 40%;
+}
+
+.aboutmeimg img {
+    width: 100%;
+    filter: contrast(1.2);
+}
+
+
+.aboutmecontent {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+}
+
+.aboutheading h1{
+    font-size: 36px;
+}
+
+.aboutheading h1::after {
+    content: "";
+    display: block;
+    margin-top: 10px;
+    height: 4px;
+    width: 10px;
+    background: #ccc;
+    border-radius: 15px;
+}
+
+.aboutdesc p {
+    font-size: 14px;
+    opacity: 0.9;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.aboutbtn {
+    padding: 10px 20px;
+    width: 18%;
+    align-self: flex-end;
+    background: #000;
+    border-radius: 4px;
+    margin-top: 18%;
+    text-align: center;
+}
+
+.aboutbtn a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+.aboutbgtext h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 200px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 27%;
+    transform: rotate(90deg);
+    color: #9fa4b6;
+    opacity: 0.5;
+}
+
+
+.contact-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    position: relative;
+    flex: 1;
+    max-width: 300px;
+    height: 140px;
+    background-color: #313131;
+    margin: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    font-size: 32px;
+    color: #fff;
+    transition: .3s linear;
+}
+
+.card:hover .icon{
+    transform: scale(4);
+    opacity: 0;
+}
+
+.card-content h3,
+.card-content span{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    opacity: 0;
+}
+
+.card-content h3{
+    top: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.card-content span{
+    bottom: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.card:hover h3{
+    opacity: 1;
+    top: 46px;
+    transition: .3s linear .3s;
+}
+
+.card:hover span{
+    opacity: 1;
+    bottom: 46px;
+    transition: .3s linear .3s;
+}
+
+
+
+@media screen and (max-width:900px){
+    .card{
+        flex: 100%;
+        max-width: 500px;
+    }
+}
+/* Responsive */
+@media only screen and (max-width: 940px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    nav {
+        width: 120px;
+        padding: 0;
+
+    }
+
+    .landing {
+        flex-direction: column;
+    }
+
+    .content {
+        margin-top: 10%;
+    }
+
+    .content,
+    .profileimage {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .portfolio-content h1 {
+        font-size: 14px;
+    }
+
+    .portfolio-content h5 {
+        font-size: 12px;
+    }
+
+    .container .box {
+        width: 30%;
+        padding-bottom: 30%;
+        margin-bottom: 20px;
+        left: 15%;
+    }
+
+    .box-content h3 {
+        display: none;
+    }
+
+    .box-content h5 {
+        font-size: 14px;
+    }
+
+    .container .box .caption {
+        opacity: 1;
+        transform: scale(1);
+        bottom: 5%;
+    }
+
+    .box:after {
+        opacity: 0.3;
+        left: 0;
+    }
+
+    .box-content {
+        display: inline-block;
+    }
+
+    .aboutme {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .aboutmeimg {
+        width: 40vw;
+        padding: 0;
+        margin-top: 5vh;
+        margin-bottom: 40px;
+    }
+
+    .aboutmecontent {
+        width: 80vw;
+    }
+
+    .aboutheading h1::after {
+        display: none;
+    }
+
+    .aboutbgtext {
+        display: none;
+    }
+
+    .aboutheading h1 {
+        font-size: 18px;
+    }
+
+    .aboutdesc p {
+        font-size: 10px;
+    }
+
+    .aboutbtn {
+        padding: 10px 20px;
+        width: 40%;
+        margin-top: 5%;
+        align-self: center;
+    }
+
+}
