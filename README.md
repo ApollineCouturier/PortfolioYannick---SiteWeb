@@ -6,41 +6,15 @@ Ceci est le site portfolio d'un ami graphiste avec qui je travaille régulièrem
 Accueil:
 ========
 
-![ScreenShot](https://github.com/EpitechIT2020/B-DEV-500-BDX-5-1-cardgames-olivier.gurses/blob/master/RessourcesDoc/Register.png)
+![ScreenShot](https://github.com/ApollineCouturier/PortfolioYannick-SiteWeb/blob/main/imgReadMe/home-yannick.PNG)
 
-Compétences:
+Sur Lui:
 ========
 
-![ScreenShot](https://github.com/EpitechIT2020/B-DEV-500-BDX-5-1-cardgames-olivier.gurses/blob/master/RessourcesDoc/Register.png)
+![ScreenShot](https://github.com/ApollineCouturier/PortfolioYannick-SiteWeb/blob/main/imgReadMe/about-yannick.PNG)
 
-Mes services:
-============
+Projets:
+========
 
-![ScreenShot](https://github.com/EpitechIT2020/B-DEV-500-BDX-5-1-cardgames-olivier.gurses/blob/master/RessourcesDoc/Register.png)
+![ScreenShot](https://github.com/ApollineCouturier/PortfolioYannick-SiteWeb/blob/main/imgReadMe/projet-yannick.PNG)
 
-La galerie:
-============
-
-![ScreenShot](https://github.com/EpitechIT2020/B-DEV-500-BDX-5-1-cardgames-olivier.gurses/blob/master/RessourcesDoc/Register.png)
-
-Expérience et éducation:
-=============
-
-![ScreenShot](https://github.com/EpitechIT2020/B-DEV-500-BDX-5-1-cardgames-olivier.gurses/blob/master/RessourcesDoc/Register.png)
-
-
-![ScreenShot](https://github.com/EpitechIT2020/B-DEV-500-BDX-5-1-cardgames-olivier.gurses/blob/master/RessourcesDoc/Register.png)
-
-Contact:
-============
-
-![ScreenShot](https://github.com/EpitechIT2020/B-DEV-500-BDX-5-1-cardgames-olivier.gurses/blob/master/RessourcesDoc/Register.png)
-
-
-
-La galerie projet:
-============
-
-![ScreenShot](https://github.com/EpitechIT2020/B-DEV-500-BDX-5-1-cardgames-olivier.gurses/blob/master/RessourcesDoc/Register.png)
-
-![ScreenShot](https://github.com/EpitechIT2020/B-DEV-500-BDX-5-1-cardgames-olivier.gurses/blob/master/RessourcesDoc/Register.png)
