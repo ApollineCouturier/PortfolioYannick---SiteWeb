@@ -1,13 +1,13 @@
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyAilqJAUA6MAe8_fYYjdgzAtWAI3BaKOZw",
-    authDomain: "testweb-artifice.firebaseapp.com",
-    databaseURL: "https://testweb-artifice.firebaseio.com",
-    projectId: "testweb-artifice",
-    storageBucket: "testweb-artifice.appspot.com",
-    messagingSenderId: "848834373957",
-    appId: "1:848834373957:web:a192770faebdb47995362c",
-    measurementId: "G-63GHDCEY9V"
+    apiKey: "******",
+    authDomain: "******",
+    databaseURL: "******",
+    projectId: "******",
+    storageBucket: "******",
+    messagingSenderId: "******",
+    appId: "******",
+    measurementId: "******"
   };
   firebase.initializeApp(config);
 
