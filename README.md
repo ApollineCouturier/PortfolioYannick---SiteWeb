@@ -18,3 +18,13 @@ Projets:
 
 ![ScreenShot](https://github.com/ApollineCouturier/PortfolioYannick-SiteWeb/blob/main/imgReadMe/projet-yannick.PNG)
 
+Me Contacter:
+========
+
+![ScreenShot](https://github.com/ApollineCouturier/PortfolioYannick-SiteWeb/blob/main/imgReadMe/contact_yannick.PNG)
+
+
+Galerie:
+========
+
+![ScreenShot](https://github.com/ApollineCouturier/PortfolioYannick-SiteWeb/blob/main/imgReadMe/home_galerie_yannick.PNG)
