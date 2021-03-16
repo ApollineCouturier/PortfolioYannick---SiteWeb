@@ -247,6 +247,11 @@ h1, h2, h3, h4, h5, h6, p{
     height: auto;
 }
 
+.imgct{
+    width: 600px;
+    height: 600px;
+}
+
 /* # Media Queries # */
 
 @media screen and (min-width: 678px){
@@ -369,5 +374,16 @@ h1, h2, h3, h4, h5, h6, p{
 @media screen and (min-width: 1200px){
     .menu-wrapper{
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .menu-wrapper{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .imgct {
+        width: 500px;
+        margin-left: -100px;
     }
 }
