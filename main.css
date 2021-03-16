@@ -497,24 +497,6 @@ textarea {
     }
 }
 
-input[type=checkbox] + label {
-  color: #ccc;
-  font-style: italic;
-} 
-
-input[type=checkbox]:checked + label {
-  color: #f00;
-  font-style: normal;
-}
-/*End*/
-.alert{
-    text-align: center;
-    padding: 10px;
-    background: #79cb79;
-    color: #ffffff;
-    margin-bottom: 10px;
-    display: none;
-}
 
 /* LARGE SCREENS */
 @media(min-width:700px){
