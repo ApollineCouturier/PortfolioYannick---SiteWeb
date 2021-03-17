@@ -252,6 +252,9 @@ h1, h2, h3, h4, h5, h6, p{
     height: 600px;
 }
 
+.navbar-nav {
+    visibility: hidden;
+}
 /* # Media Queries # */
 
 @media screen and (min-width: 678px){
@@ -293,6 +296,7 @@ h1, h2, h3, h4, h5, h6, p{
         align-items: center;
         justify-content: space-between;
         padding-bottom: 0;
+        visibility: hidden;
     }
     .navbar-nav{
         flex: 1 0 auto;
@@ -389,5 +393,14 @@ h1, h2, h3, h4, h5, h6, p{
 
     li {
         color: #363636;
+    }
+    a{
+        color: #363636;
+    }
+    .navbar-nav{
+        color: #363636;
+    }
+    .navbar-nav li {
+        visibility: visible;
     }
 }
