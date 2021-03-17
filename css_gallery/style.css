@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6, p{
 /* header */
 .header{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("../web yan/projets vitrine/Magazine fond Noir.jpg") center/cover fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("../imgGallery/Magazine\ fond\ Noir.jpg") center/cover fixed;
     display: flex;
     flex-direction: column;
     align-items: flex-start;

@@ -35,3 +35,7 @@ Galerie:
 ========
 
 ![ScreenShot](https://github.com/ApollineCouturier/PortfolioYannick-SiteWeb/blob/main/imgReadMe/home_galerie_yannick.PNG)
+
+![ScreenShot](https://github.com/ApollineCouturier/PortfolioYannick-SiteWeb/blob/main/imgReadMe/gallerie-1.PNG)
+
+![ScreenShot](https://github.com/ApollineCouturier/PortfolioYannick-SiteWeb/blob/main/imgReadMe/gallerie2.PNG)
