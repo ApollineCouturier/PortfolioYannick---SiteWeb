@@ -8,7 +8,8 @@ body{
     background-color: #151515;
 }
 
-html{
+html { 
+    overflow-y: hidden; 
     font-size: 10px;
 }
 
