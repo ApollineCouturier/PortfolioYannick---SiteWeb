@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css_gallery/style_gallery.css">
     <!-- google fonts -->
     <link rel = "stylesheet" href = "css_gallery/fonts.css">
+    <link rel = "stylesheet" href = "css/loader.css">
     <!-- font awesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <!-- normalize css -->
@@ -27,7 +28,10 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
   </head>
   <body>
-
+	<div class='spinner-wrapper'>
+		<div class="spinner"></div>
+	</div>
+	
     <!-- navbar -->
     <nav class = "navbar">
     	<div class = "nav-brand-toggler">
@@ -235,8 +239,18 @@
 		</body>
     </section>
     <!-- end of menu -->
-
     <!-- jQuery -->
+	<script>
+		let spinnerWrapper = document.querySelector('.spinner-wrapper');
+		let gallery = document.querySelector('.menu');
+	  
+		window.addEventListener('load', function () {
+			// spinnerWrapper.style.display = 'none';
+			spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+			document.body.style.backgroundColor = "transparent";
+			gallery.style.visibility="visible";
+		});
+	  </script>
     <script src = "js/jquery-3.5.1.js"></script>
     <!-- magnific popup -->
     <script src = "js/jquery.magnific-popup.min.js"></script>
